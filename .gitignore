@@ -13,3 +13,7 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+preset/conf/setting.yaml
+.tags
+go.mod
+go.sum

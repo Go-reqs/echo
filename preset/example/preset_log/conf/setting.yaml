@@ -1,0 +1,17 @@
+Preset:
+  - log/rotatelog
+  #- log/hellolog
+
+log/hellologger:
+  greet: hello
+
+log/rotatelog:
+  Prefix:
+  Level: 1
+  Header: ${level} ${message}
+  RotateLog:
+    filename: /tmp/rotate.log
+    maxsize: 100
+    maxbackups: 5
+    maxage: 30
+
